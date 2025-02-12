@@ -42,8 +42,8 @@ export const Board: React.FC = () => {
   return (
     <div>
       {/* Tablero */}
-      <h2 className="text-center text-xl mb-4">Intentos: {moves}</h2>
-      <div className="grid grid-cols-4 gap-4">
+      <h2 className="text-center text-xl mt-4">Intentos: {moves}</h2>
+      <div className="grid grid-cols-3 sm:grid-cols-4 gap-6 sm:gap-8 mt-8">
         {cards.map((card, index) => (
           <Card
             key={card.id}

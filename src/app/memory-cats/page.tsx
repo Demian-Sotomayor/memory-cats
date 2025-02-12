@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import React from 'react'
 
-export const HomeContainer = () => {
+export default function MemoryCats() {
   return (
-    <div className="wrapper flex flex-col items-center space-y-2 mt-8">
+    <div className="wrapper">
       {/* Contenedor */}
       <Link href="/memory-cats/nivel-1" className="btn-primary">
         Nivel 1

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Footer, Navbar } from '@/components'
 
 export const metadata: Metadata = {
   title: 'Proyecto base',
@@ -14,7 +15,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <header>
+          <Navbar />
+        </header>
+        <main className="min-h-screen">{children}</main>
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   )
