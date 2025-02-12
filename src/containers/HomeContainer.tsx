@@ -1,7 +1,13 @@
+import { Board } from '@/components'
 import React from 'react'
 
 export const HomeContainer = () => {
   return (
-    <div>HomeContainer</div>
+    <div>
+      {/* Contenedor */}
+      <section>
+        <Board />
+      </section>
+    </div>
   )
 }
