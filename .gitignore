@@ -28,9 +28,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+package-lock.json
 
-# env files (can opt-in for committing if needed)
+# env files (can opt-in for commiting if needed)
 .env*
 
 # vercel
@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#uso interno
+notas.md
